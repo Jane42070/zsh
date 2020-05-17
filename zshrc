@@ -275,6 +275,8 @@ alias md="mkdir"
 alias n="neofetch"
 # backup
 alias back="~/Opensource/my-linux/my-scripts/backup.sh"
+# set neovim as default editor
+alias vi='nvim'
 # colorize ls, l, ll
 # gem install colorls
 alias lc='colorls'
@@ -301,3 +303,4 @@ export CPPFLAGS="-I/usr/local/opt/qt/include"
 export QTDIR="/usr/local/Cellar/qt/5.14.1"
 export PATH=$PATH:$QTDIR/bin
 export PATH=$PATH:~/platform-tools/
+export PATH=$PATH:~/go/bin
